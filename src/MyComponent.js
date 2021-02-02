@@ -22,6 +22,7 @@ class MyComponent extends Component {
         >
           +1
         </button>
+        힘들구만 ㅠ
       </div>
     );
   }
