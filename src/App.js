@@ -2,11 +2,7 @@
 import React from "react";
 import MyComponent from "./MyComponent";
 const App = () => {
-  return (
-    <MyComponent name="아오" 좋아하는숫자={2}>
-      세제귀모링
-    </MyComponent>
-  );
+  return <MyComponent> </MyComponent>;
 };
 /*src\MyComponent.js
   Line 15:13:  Typo in static class property declaration  react/no-typos
