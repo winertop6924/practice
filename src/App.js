@@ -1,8 +1,9 @@
 /*https://github.com/winertop6924/practice.gitS */
 import React from "react";
+import Counter from "./Counter";
 import MyComponent from "./MyComponent";
 const App = () => {
-  return <MyComponent> </MyComponent>;
+  return <Counter> </Counter>;
 };
 /*src\MyComponent.js
   Line 15:13:  Typo in static class property declaration  react/no-typos
