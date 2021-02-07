@@ -9,6 +9,7 @@ class Counter extends Component {
 
   render() {
     const { number, fixedNumber } = this.state; //state를 조회할때 this.state로 사용
+    //const sum=(a+b)
     return (
       <div>
         <h1>{number}</h1>
@@ -16,10 +17,23 @@ class Counter extends Component {
         <button
           //onclick을 통해 버튼이클릭됬을때 호출할 함수 저장
           onClick={() => {
-            this.setState({ number: this.state.number + 1 });
+            this.setState(
+              this.setState(
+                {
+                  number: number + 1,
+                },
+                () => {
+                  console.log("setState 호출");
+                  console.log(this.state);
+                }
+              )
+            );
+            /////////////////////
+            //아래 코드와 같은기능
+            ////this.setState(prevState=>({number:prevState.number+1}))
           }}
         >
-          +1
+          1추가
         </button>
       </div>
     );
