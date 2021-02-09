@@ -2,9 +2,13 @@
 import React from "react";
 import Counter from "./Counter";
 import MyComponent from "./MyComponent";
+import Say from "./Say";
 const App = () => {
-  return <Counter> </Counter>;
+  return <Say />;
 };
+// const App = () => {
+//   return <Counter> </Counter>;
+// };
 /*src\MyComponent.js
   Line 15:13:  Typo in static class property declaration  react/no-typos
 
