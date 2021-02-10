@@ -3,9 +3,13 @@ import React from "react";
 import Counter from "./Counter";
 import MyComponent from "./MyComponent";
 import Say from "./Say";
+import EventPractice from "./EventPractice";
 const App = () => {
-  return <Say />;
+  return <EventPractice />;
 };
+// const App = () => {
+//   return <Say />;
+// };
 // const App = () => {
 //   return <Counter> </Counter>;
 // };
