@@ -1,12 +1,17 @@
 /*https://github.com/winertop6924/practice.gitS */
-import React from "react";
+import React, { Component } from "react";
 import Counter from "./Counter";
 import MyComponent from "./MyComponent";
 import Say from "./Say";
 import EventPractice from "./EventPractice";
-const App = () => {
-  return <EventPractice />;
-};
+import ValidationSample from "./ValidationSample";
+import ScrollBox from "./ScrollBox";
+class App extends Component {
+  render() {
+    return <ScrollBox />;
+  }
+}
+export default App;
 // const App = () => {
 //   return <Say />;
 // };
@@ -18,4 +23,3 @@ const App = () => {
 
 Search for the keywords to learn more about each error.
 오류 해결-> name을 바꿀것 바로해결됨 */
-export default App;
